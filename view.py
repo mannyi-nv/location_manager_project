@@ -1,0 +1,11 @@
+def menu():
+    print("\n=====   TRAVEL LOCATIONS MANAGAER   =====")
+    print("1.   Show Locations")
+    print("2.   Add Location")
+    print("3.   Delete Location")
+    print("4.   Filter by country")
+    print("5.   Filter by type")
+    print("6.   Mark location as visited")
+    print("7.   Load data")
+    print("8.   Save data")
+    print("9.   Exit")
