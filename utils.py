@@ -32,7 +32,7 @@ def add_location(locations):
     name = input("Enter location name: ")
     country = input("Enter country name: ")
     type = input("Enter type of vacation: ")
-    new_location = {"id": len(locations)+1 , "name": name , "country": country , "type" : type}
+    new_location = {"id": len(locations)+1 , "name": name , "country": country , "type" : type , "visited" : "❌"}
     print(f"\nnew location to be added: {new_location}")
     user_conf = input(f"\nPlease type 'YES / NO' to confirm: ").lower()
     if user_conf == "yes":
